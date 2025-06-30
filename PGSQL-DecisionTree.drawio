@@ -4,6 +4,16 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5nJzX0wN5Kj-0BxlK2D-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-5" value="10-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sF1q0-W8rJ6T_VuF_i0G-2">
+          <mxGeometry x="-0.3812" y="4" relative="1" as="geometry">
+            <mxPoint x="-4" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-1" value="PostgreSQL Version?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=1;fontFamily=Helvetica;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="360" y="40" width="160" height="80" as="geometry" />
         </mxCell>
@@ -44,6 +54,9 @@
         </mxCell>
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-19" value="AWS Backup" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-4" value="ReHost to EC2&lt;div&gt;(export/import)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
