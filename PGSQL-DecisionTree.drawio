@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15" version="27.2.0">
   <diagram name="Page-1" id="Jo4s_xSjX232r70IKemJ">
-    <mxGraphModel dx="920" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="952" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5nJzX0wN5Kj-0BxlK2D-1">
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="g5nJzX0wN5Kj-0BxlK2D-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-5" value="10-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sF1q0-W8rJ6T_VuF_i0G-2">
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-5" value="10-" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="sF1q0-W8rJ6T_VuF_i0G-2" vertex="1" connectable="0">
           <mxGeometry x="-0.3812" y="4" relative="1" as="geometry">
             <mxPoint x="-4" y="12" as="offset" />
           </mxGeometry>
@@ -55,8 +55,27 @@
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-19" value="AWS Backup" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-4" value="ReHost to EC2&lt;div&gt;(export/import)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-4" value="ReHost to EC2&lt;div&gt;(export/import)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="93UuIG2niO7AWRklywX3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="93UuIG2niO7AWRklywX3-1" target="g5nJzX0wN5Kj-0BxlK2D-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93UuIG2niO7AWRklywX3-3" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="93UuIG2niO7AWRklywX3-2">
+          <mxGeometry x="-0.12" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93UuIG2niO7AWRklywX3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="93UuIG2niO7AWRklywX3-1" target="sF1q0-W8rJ6T_VuF_i0G-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="93UuIG2niO7AWRklywX3-5" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="93UuIG2niO7AWRklywX3-4">
+          <mxGeometry x="-0.4743" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="93UuIG2niO7AWRklywX3-1" value="Embedded DB ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-90" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
