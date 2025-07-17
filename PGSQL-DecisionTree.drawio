@@ -26,7 +26,7 @@
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-12" value="Yes (Exception)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g5nJzX0wN5Kj-0BxlK2D-11" target="g5nJzX0wN5Kj-0BxlK2D-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="g5nJzX0wN5Kj-0BxlK2D-13" value="ReHost to EC2&lt;div&gt;(export/import)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="g5nJzX0wN5Kj-0BxlK2D-13" value="ReHost to EC2&lt;div&gt;(VM Copy)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="830" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="g5nJzX0wN5Kj-0BxlK2D-13" target="g5nJzX0wN5Kj-0BxlK2D-15" edge="1">
@@ -55,7 +55,7 @@
         <mxCell id="g5nJzX0wN5Kj-0BxlK2D-19" value="AWS Backup" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="620" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-4" value="ReHost to EC2&lt;div&gt;(export/import)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="sF1q0-W8rJ6T_VuF_i0G-4" value="ReHost to EC2&lt;div&gt;(VM Copy)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;fontFamily=Helvetica;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="380" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="93UuIG2niO7AWRklywX3-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="93UuIG2niO7AWRklywX3-1" target="g5nJzX0wN5Kj-0BxlK2D-1">
