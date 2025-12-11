@@ -173,7 +173,7 @@
         <mxCell id="-ahah-VOMXU4YyCznLEc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Does not cover important failure (non-HA)" vertex="1">
           <mxGeometry height="40" width="140" x="220" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="-ahah-VOMXU4YyCznLEc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" value="Dual location" vertex="1">
+        <mxCell id="-ahah-VOMXU4YyCznLEc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" value="Dual local location" vertex="1">
           <mxGeometry height="40" width="100" x="100" y="560" as="geometry" />
         </mxCell>
         <mxCell id="-ahah-VOMXU4YyCznLEc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Covers most of physical risks and HA requirements" vertex="1">
