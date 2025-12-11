@@ -100,7 +100,7 @@
         <mxCell id="UVa6zJgjkYjsWSl46cCC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Business continuity required?" vertex="1">
           <mxGeometry height="50" width="160" x="220" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Dual location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Suits HA and local DR&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Dual local location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Suits HA and local DR&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="126" x="378" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Cross Region location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Suits long distance DR&lt;/span&gt;&lt;/div&gt;" vertex="1">
