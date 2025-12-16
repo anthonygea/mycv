@@ -87,23 +87,23 @@
     </mxGraphModel>
   </diagram>
   <diagram name="HA-DR" id="n_v3BIk62opzxC8qzNF-">
-    <mxGraphModel dx="976" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="976" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" value="HA or DR Options" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" value="DR Decision tree" vertex="1">
           <mxGeometry height="60" width="200" x="340" y="20" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Is Vital?" vertex="1">
           <mxGeometry height="50" width="160" x="360" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Business continuity required?" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="SLA &amp;gt; 99%" vertex="1">
           <mxGeometry height="50" width="160" x="220" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Dual local location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Suits HA and local DR&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Dual local location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Covers local outages&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="126" x="378" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Cross Region location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Suits long distance DR&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Cross Region location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Covers regional outages&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="650" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-6" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-1" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;" target="UVa6zJgjkYjsWSl46cCC-2">
@@ -119,22 +119,22 @@
             <mxPoint x="310" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-9" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-16" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UVa6zJgjkYjsWSl46cCC-5">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-9" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-16" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UVa6zJgjkYjsWSl46cCC-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Yes" vertex="1">
-          <mxGeometry height="20" width="100" x="504" y="120" as="geometry" />
+          <mxGeometry height="20" width="100" x="490" y="160" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="No" vertex="1">
           <mxGeometry height="20" width="100" x="270" y="120" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-12" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Yes" vertex="1">
-          <mxGeometry height="20" width="100" x="360" y="200" as="geometry" />
+          <mxGeometry height="20" width="100" x="360" y="240" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="No" vertex="1">
           <mxGeometry height="20" width="100" x="150" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Single location&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Backup only&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="Single location&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Sensible to local outages&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="130" x="100" y="280" as="geometry" />
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-15" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-3" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="UVa6zJgjkYjsWSl46cCC-14">
@@ -143,19 +143,19 @@
             <mxPoint x="190" y="355" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Is Materiality &amp;gt; 100M$?" vertex="1">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Materiality &amp;gt; 500M€" vertex="1">
           <mxGeometry height="50" width="160" x="510" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-17" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-3" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UVa6zJgjkYjsWSl46cCC-4">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-17" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-3" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="UVa6zJgjkYjsWSl46cCC-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="335" as="sourcePoint" />
             <mxPoint x="430" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UVa6zJgjkYjsWSl46cCC-18" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Yes" vertex="1">
-          <mxGeometry height="20" width="100" x="650" y="200" as="geometry" />
+          <mxGeometry height="20" width="100" x="640" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="UVa6zJgjkYjsWSl46cCC-19" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-2" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="UVa6zJgjkYjsWSl46cCC-16">
+        <mxCell id="UVa6zJgjkYjsWSl46cCC-19" edge="1" parent="1" source="UVa6zJgjkYjsWSl46cCC-2" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UVa6zJgjkYjsWSl46cCC-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="190" as="sourcePoint" />
             <mxPoint x="410" y="275" as="targetPoint" />
@@ -170,13 +170,13 @@
         <mxCell id="-ahah-VOMXU4YyCznLEc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" value="Single location" vertex="1">
           <mxGeometry height="40" width="100" x="100" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="-ahah-VOMXU4YyCznLEc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Does not cover important failure (non-HA)" vertex="1">
+        <mxCell id="-ahah-VOMXU4YyCznLEc-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Does not cover important DC failure" vertex="1">
           <mxGeometry height="40" width="140" x="220" y="490" as="geometry" />
         </mxCell>
         <mxCell id="-ahah-VOMXU4YyCznLEc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" value="Dual local location" vertex="1">
           <mxGeometry height="40" width="100" x="100" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="-ahah-VOMXU4YyCznLEc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Covers most of physical risks and HA requirements" vertex="1">
+        <mxCell id="-ahah-VOMXU4YyCznLEc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Covers most of physical risks" vertex="1">
           <mxGeometry height="40" width="140" x="220" y="560" as="geometry" />
         </mxCell>
         <mxCell id="-ahah-VOMXU4YyCznLEc-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=1;" value="Cross Region location" vertex="1">
@@ -184,6 +184,53 @@
         </mxCell>
         <mxCell id="-ahah-VOMXU4YyCznLEc-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="Covers major failure that target a country / a provider widely" vertex="1">
           <mxGeometry height="40" width="140" x="220" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" value="HA Decision tree" vertex="1">
+          <mxGeometry height="60" width="200" x="520" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="SLA &amp;gt; 99%" vertex="1">
+          <mxGeometry height="50" width="160" x="540" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-3" edge="1" parent="1" source="UVYj_ayHFsLneoiiwNGc-1" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;" target="UVYj_ayHFsLneoiiwNGc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="&lt;div&gt;Performance HA&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Covers local outages&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="126" x="410" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" value="&lt;div&gt;Dual location HA&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Cloud multi AZ&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;OnPrem dual rooms&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="682" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-6" edge="1" parent="1" source="UVYj_ayHFsLneoiiwNGc-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="UVYj_ayHFsLneoiiwNGc-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="302" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-7" edge="1" parent="1" source="UVYj_ayHFsLneoiiwNGc-8" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="UVYj_ayHFsLneoiiwNGc-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;" value="Need to cover a local physical disaster ?" vertex="1">
+          <mxGeometry height="50" width="160" x="542" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Yes" vertex="1">
+          <mxGeometry height="20" width="100" x="670" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-11" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="No" vertex="1">
+          <mxGeometry height="20" width="100" x="462" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-12" edge="1" parent="1" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="621.5" y="540" as="sourcePoint" />
+            <mxPoint x="621.5" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-13" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" value="Calix or local regulation" vertex="1">
+          <mxGeometry height="20" width="130" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="UVYj_ayHFsLneoiiwNGc-14" edge="1" parent="1" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;dashed=1;dashPattern=8 8;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="626" y="320" as="sourcePoint" />
+            <mxPoint x="536" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
